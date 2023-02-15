@@ -1,16 +1,54 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: content-box;
+}
+
+body {
+  width: 100%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 #seccion_white {
   height: 100vh;
+  width: 100%;
+  text-align: center;
   background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#seccion_white nav {
+  background-color: grey;
+  padding: 30px;
+  border-radius: 20px;
+}
+#seccion_white nav a {
   color: white;
 }
 
 #seccion_black {
   height: 100vh;
+  width: 100%;
+  text-align: center;
   background-color: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#seccion_black nav {
+  background-color: grey;
+  padding: 30px;
+  border-radius: 20px;
+}
+#seccion_black nav a {
   color: black;
 }/*# sourceMappingURL=style.css.map */
